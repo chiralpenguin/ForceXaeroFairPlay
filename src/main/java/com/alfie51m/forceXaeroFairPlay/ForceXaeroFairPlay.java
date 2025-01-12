@@ -11,17 +11,21 @@ public class ForceXaeroFairPlay extends JavaPlugin implements Listener {
     @Override
     public void onEnable() {
         Bukkit.getPluginManager().registerEvents(this, this);
-        getLogger().info("ForceXaeroFairPlay Plugin has been enabled!");
+        getLogger().info("TellrawPlugin has been enabled!");
     }
 
     @Override
     public void onDisable() {
-        getLogger().info("ForceXaeroFairPlay Plugin has been disabled!");
+        getLogger().info("TellrawPlugin has been disabled!");
     }
 
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent event) {
         String playerName = event.getPlayer().getName();
+
+        if (event.getPlayer().hasPermission("forcexaerofairplay.bypass")) {
+            return;
+        }
 
         String tellrawCommand = String.format("tellraw %s \"\\u00a7f\\u00a7a\\u00a7i\\u00a7r\\u00a7x\\u00a7a\\u00a7e\\u00a7r\\u00a7o\"", playerName);
         Bukkit.dispatchCommand(Bukkit.getConsoleSender(), tellrawCommand);
