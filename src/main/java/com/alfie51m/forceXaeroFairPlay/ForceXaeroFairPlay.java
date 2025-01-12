@@ -11,12 +11,12 @@ public class ForceXaeroFairPlay extends JavaPlugin implements Listener {
     @Override
     public void onEnable() {
         Bukkit.getPluginManager().registerEvents(this, this);
-        getLogger().info("TellrawPlugin has been enabled!");
+        getLogger().info("ForceXaeroFairPlay has been enabled!");
     }
 
     @Override
     public void onDisable() {
-        getLogger().info("TellrawPlugin has been disabled!");
+        getLogger().info("ForceXaeroFairPlay has been disabled!");
     }
 
     @EventHandler
