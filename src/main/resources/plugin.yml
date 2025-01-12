@@ -1,0 +1,4 @@
+name: ForceXaeroFairPlay
+version: '1.0'
+main: com.alfie51m.forceXaeroFairPlay.ForceXaeroFairPlay
+api-version: '1.21'
