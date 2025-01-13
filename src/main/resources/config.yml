@@ -1,0 +1,9 @@
+# Default mode for all players.
+# Options: none, fairplay, disabled
+defaultMode: fairplay
+
+# World-specific modes
+# Only add worlds if you want to override default setting.
+worldModes:
+  world: fairplay
+  custom_world: none

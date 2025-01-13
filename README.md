@@ -5,8 +5,23 @@
 
 ## Features
 - Sends a custom formatted message to players upon joining.
+- Customisable per-world settings.
 
-## Permission
+## Example Config
+
+```yaml
+# Default mode for all players.
+# Options: none, fairplay, disabled
+defaultMode: fairplay
+
+# World-specific modes. 
+# Only add worlds if you want to override default setting.
+worldModes:
+  world: fairplay
+  custom_world: none
+```
+
+## Permissions
 - **`forcexaerofairplay.bypass`**: Players with this permission will not have their map set to Fair Play mode.
 
 ## Installation
@@ -15,7 +30,8 @@
 3. Restart your server.
 
 ## Usage
-- The plugin works automatically after installation.
+- By default the plugin will set all players Xaero's Minimap to Fair Play.
+- Set per-world configuration settings or leave worldModes blank to use the servers default config.
 - Grant the `forcexaerofairplay.bypass` permission to exempt specific players or groups.
 
 ## Contributing
