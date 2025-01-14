@@ -42,5 +42,5 @@ This project is licensed under the MIT License. See the [Apache License 2.0](htt
 
 --- 
 
-### **Thanks for using CommandGUI**
+### **Thanks for using ForceXaeroFairPlay**
 You can also find this plugin on [Modrinth](https://modrinth.com/plugin/forcexaerofairplay), [Paper Hangar](https://hangar.papermc.io/Alfie51m/ForceXaeroFairPlay), [SpigotMC](https://www.spigotmc.org/resources/forcexaerofairplay.121907/)
