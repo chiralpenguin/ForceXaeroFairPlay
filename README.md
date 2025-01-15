@@ -40,7 +40,7 @@ worldModes:
 Feel free to submit issues or contribute via pull requests on the [GitHub repository](https://github.com/Alfie51m/ForceXaeroFairPlay).
 
 ## License
-This project is licensed under the MIT License. See the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0.txt) for details.
+This project is licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0.txt).
 
 --- 
 
