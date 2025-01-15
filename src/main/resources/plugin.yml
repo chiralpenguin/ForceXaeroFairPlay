@@ -1,8 +1,8 @@
 name: ForceXaeroFairPlay
-version: '2.0.0'
+version: '2.1.0'
 main: com.alfie51m.forceXaeroFairPlay.ForceXaeroFairPlay
 api-version: '1.21'
 permissions:
   forcexaerofairplay.bypass:
     description: Prevents the plugin from changing your minimap mode.
-    default: op
+    default: not op

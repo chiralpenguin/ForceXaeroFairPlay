@@ -65,6 +65,10 @@ public class ForceXaeroFairPlay extends JavaPlugin implements Listener {
                 messageBuilder.append("§f§a§i§r§x§a§e§r§o §n§o§m§i§n§i§m§a§p");
                 break;
 
+            case "fairplay_nether":
+                messageBuilder.append("§f§a§i§r§x§a§e§r§o §x§a§e§r§o§w§m§n§e§t§h§e§r§i§s§f§a§i§r");
+                break;
+
             case "none":
             default:
                 break;
