@@ -1,5 +1,5 @@
 name: ForceXaeroFairPlay
-version: '2.1.0'
+version: ${version}
 main: com.alfie51m.forceXaeroFairPlay.ForceXaeroFairPlay
 api-version: '1.21'
 permissions:
