@@ -1,6 +1,5 @@
 package com.alfie51m.forceXaeroFairPlay;
 
-import org.bukkit.Bukkit;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -74,9 +73,14 @@ public class ForceXaeroFairPlay extends JavaPlugin implements Listener {
                 break;
         }
 
-        if (messageBuilder.length() > 0) {
-            Bukkit.dispatchCommand(Bukkit.getConsoleSender(),
-                    "tellraw " + player.getName() + " \"" + messageBuilder.toString() + "\"");
+        if (!messageBuilder.isEmpty()) {
+            getServer().getGlobalRegionScheduler().runDelayed(
+                    this,
+                    scheduledTask -> {
+                        getServer().dispatchCommand(getServer().getConsoleSender(),
+                                "tellraw " + player.getName() + " \"" + messageBuilder.toString() + "\"");
+                    },
+                    1L);
         }
     }
 }
